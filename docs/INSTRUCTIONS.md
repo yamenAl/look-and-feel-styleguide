@@ -1,5 +1,5 @@
 
-# Look and Feel - Living Styleguide
+# Living Styleguide
 
 Ontwerp en maak een *living styleguide* voor een opdrachtgever.
 
