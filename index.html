@@ -1,59 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>[Projectnaam] living styleguide</title>
+    <title>[Projectnaam] - Styleguide</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>[Projectnaam] styleguide v0.1</h1>
-    </header>
 
-    <nav>
-      <ul>
-        <li><a href="/" class="active">Globals</a></li>
-        <li><a href="/">...</a></li>
-      </ul>
-    </nav>
+    
+    <h1>[Projectnaam] - Styleguide</h1>
+    <p>Dit de de styleguide voor het project [Projectnaam]. Hierin zijn verschillende huisstijl onderdelen gedefinieerd.</p>
+    <p>Als de styleguide styleshet wordt gebruikt, voldoen de verschillende projecten aan de huisstijl van de opdrachtgever.</p>
 
-    <main>
-      <h2>Globals</h2>
+    <h2>Dit is een h2</h2>
+    <p>Dit is een paragraaf na een h2</p>
 
-      <section>
-        <h3>Header</h3>
-        <img src="screenshot_van_je_header.png" alt="screenshot van je header" />
+    <h3>Dit is een h3</h3>
+    <p>Dit is een paragraaf na een h3</p>
+    
+    <h4>Dit is een h4</h4>
+    <p>Dit is een paragraaf na een h4</p>
+    
+    <h5>Dit is een h5</h5>
+    <p>Dit is een paragraaf na een h5</p>
+    
+    <h6>Dit is een h6</h6>
+    <p>Dit is een paragraaf na een h6</p>
 
-        <h4>Wel doen</h4>
-        <p>Vertel hoe dingen toegepast moeten worden.</p>
+    <a href="#">Dit is een link</a>
 
-        <h4>Niet doen</h4>
-        <p>Vertel hoe dingen vooral niet toegepast moeten worden.</p>
+    <form>
+      <label>
+        Text: 
+        <input type="text">
+      </label>
 
-        <!-- Om HTML in HTML te laten zien gebruik je &lt; voor de < en &gt; voor de > -->
-        <pre><code>&lt;header&gt;
-  &lt;h1&gt;Zo maak je een header&lt;/h1&gt;
-&lt;/header&gt;
 
-header {
-  background-color: white;
-  margin-bottom: 1rem;
-  color: silver;
-}
+      <fieldset>
+        <legend>Radio options:</legend>
 
-header > h1 {
-  font-size: 1rem;
-  text-align: right;
-}
-  </code></pre>
-      </section>
+        <label>
+          Option 1: 
+          <input type="radio" id="" name="radio-options" value="option 1" checked>
+        </label>
 
-      <section>
-        <h3>Footer</h3>
-        ...
-      </section>
-    </main>
+        <label>
+          Option 2: 
+          <input type="radio" id="" name="radio-options" value="option 2">
+        </label>
+
+        <label>
+          Option 3: 
+          <input type="radio" id="" name="radio-options" value="option 3">
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Checkbox</legend>
+
+        <label>
+          Checkbox 1: 
+          <input type="checkbox" id="" name="checkbox 1" checked />
+        </label>
+
+        <label>
+          Checkbox 2: 
+          <input type="checkbox" id="" name="checkbox 2" checked />
+        </label>
+
+        <label>
+          Checkbox 3: 
+          <input type="checkbox" id="" name="chekcbox 3" checked />
+        </label>
+      </fieldset>
+
+      <label>
+        Search: 
+        <input type="search">
+      </label>
+      
+      <label>
+        Tel: 
+        <input type="tel">
+      </label>
+
+      <label>
+        Range: 
+        <input type="range">
+      </label>
+      
+      <label>
+        Submit: 
+        <input type="submit">
+      </label>
+
+      <label>
+        Button: 
+        <input type="button">
+      </label>
+      
+      <button>Button</button>
+    </form>
+
   </body>
 </html>
