@@ -1,6 +1,6 @@
 # Styleguide
 
-Ontwerp en maak met een team een styleguide voor een opdrachtgever.
+Ontwerp en maak met een team een styleguide om te gebruiken voor een opdracht van een opdrachtgever.
 
 ## Licentie
 
