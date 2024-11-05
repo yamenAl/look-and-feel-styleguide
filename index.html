@@ -1,107 +1,139 @@
 <!DOCTYPE html>
 <html lang="nl">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[Projectnaam] - Styleguide</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+<body>
 
     
-    <h1>[Projectnaam] - Styleguide</h1>
-    <p>Dit de de styleguide voor het project [Projectnaam]. Hierin zijn verschillende huisstijl onderdelen gedefinieerd.</p>
-    <p>Als de styleguide styleshet wordt gebruikt, voldoen de verschillende projecten aan de huisstijl van de opdrachtgever.</p>
+    <header>
+      <h1>[Projectnaam] - Styleguide</h1>
+      <p>Dit de de styleguide voor het project [Projectnaam]. Hierin zijn huisstijl onderdelen gedefinieerd.</p>
+      <p>Als de styleguide styleshet wordt gebruikt, voldoen de verschillende projecten aan de huisstijl van de opdrachtgever.</p>
+    </header>
 
-    <h2>Dit is een h2</h2>
-    <p>Dit is een paragraaf na een h2</p>
+    <nav>
+      <ul>
+        <li><a href="#kleur">Kleuren</a></li>
+        <li><a href="#typo">Typografie</a></li>
+        <li><a href="#form">Formulier elementen</a></li>
+      </ul>
+    </nav>
 
-    <h3>Dit is een h3</h3>
-    <p>Dit is een paragraaf na een h3</p>
+
+    <section id="kleur">
+
+      <h2>Kleuren</h2>
+      <p>Bij het onderdeel kleuren staat het kleurgebruik.</p>
+
+      <span class="">Kleur 1</span>
+
+      <span class="">Kleur 2</span>
+
+      <span class="">Kleur 3</span>
+
+    </section>
+
+    <section id="typo">
+
+      <h2>Typografie</h2>
+      <p>Bij het onderdeel typografie worden fonts en groottes gedemonstreerd.</p>
+
+      <h1 class="">Kop 1</h1>
+      <p class="">Met wat tekst</p>
+
+      <h2 class="">Kop 2</h2>
+      <p class="">Met wat tekst</p>
+
+      <h3 class="">Kop 3</h3>
+      <p class="">Met wat tekst</p>
+
+      <a href="#" class="">Dit is een link</a>
+
+    </section>
+
+
+    <section id="form">
+
+      <h2>Formulier elementen</h2>
+      <p>Bij het onderdeel formulier elementen worden input, radio, checkbox en buttons gedemonstreerd.</p>
+
+      <form>
+        <label class="">
+          Text: 
+          <input type="text" class="">
+        </label>
+
+        <fieldset class="">
+          <legend class="">Radio options:</legend>
+
+          <label class="">
+            Option 1: 
+            <input type="radio" id="option-1" name="radio-options" value="option 1" checked class="">
+          </label>
+
+          <label class="">
+            Option 2: 
+            <input type="radio" id="option-2" name="radio-options" value="option 2" class="">
+          </label>
+
+          <label class="">
+            Option 3: 
+            <input type="radio" id="option-3" name="radio-options" value="option 3" class="">
+          </label>
+        </fieldset>
+        
+        <fieldset class="">
+          <legend class="">Checkbox</legend>
+
+          <label class="">
+            Checkbox 1: 
+            <input type="checkbox" id="checkbox-1" name="checkbox 1" class="">
+          </label>
+
+          <label class="">
+            Checkbox 2: 
+            <input type="checkbox" id="checkbox-2" name="checkbox 2" class="">
+          </label>
+
+          <label class="">
+            Checkbox 3: 
+            <input type="checkbox" id="checkbox-3" name="chekcbox 3" class="">
+          </label>
+        </fieldset>
+
+        <label class="">
+          Search: 
+          <input type="search" class="">
+        </label>
+        
+        <label class="">
+          Tel: 
+          <input type="tel" class="">
+        </label>
+
+        <label class="">
+          Range: 
+          <input type="range" class="">
+        </label>
+        
+        <label class="">
+          Submit: 
+          <input type="submit" class="">
+        </label>
+
+        <label class="">
+          Button: 
+          <input type="button" value="button-value" class="">
+        </label>
+        
+        <button class="">Button</button>
+      </form>
     
-    <h4>Dit is een h4</h4>
-    <p>Dit is een paragraaf na een h4</p>
-    
-    <h5>Dit is een h5</h5>
-    <p>Dit is een paragraaf na een h5</p>
-    
-    <h6>Dit is een h6</h6>
-    <p>Dit is een paragraaf na een h6</p>
-
-    <a href="#">Dit is een link</a>
-
-    <form>
-      <label>
-        Text: 
-        <input type="text">
-      </label>
-
-
-      <fieldset>
-        <legend>Radio options:</legend>
-
-        <label>
-          Option 1: 
-          <input type="radio" id="" name="radio-options" value="option 1" checked>
-        </label>
-
-        <label>
-          Option 2: 
-          <input type="radio" id="" name="radio-options" value="option 2">
-        </label>
-
-        <label>
-          Option 3: 
-          <input type="radio" id="" name="radio-options" value="option 3">
-        </label>
-      </fieldset>
-      
-      <fieldset>
-        <legend>Checkbox</legend>
-
-        <label>
-          Checkbox 1: 
-          <input type="checkbox" id="" name="checkbox 1" checked />
-        </label>
-
-        <label>
-          Checkbox 2: 
-          <input type="checkbox" id="" name="checkbox 2" checked />
-        </label>
-
-        <label>
-          Checkbox 3: 
-          <input type="checkbox" id="" name="chekcbox 3" checked />
-        </label>
-      </fieldset>
-
-      <label>
-        Search: 
-        <input type="search">
-      </label>
-      
-      <label>
-        Tel: 
-        <input type="tel">
-      </label>
-
-      <label>
-        Range: 
-        <input type="range">
-      </label>
-      
-      <label>
-        Submit: 
-        <input type="submit">
-      </label>
-
-      <label>
-        Button: 
-        <input type="button">
-      </label>
-      
-      <button>Button</button>
-    </form>
+    </section>
 
   </body>
 </html>
