@@ -12,6 +12,9 @@
     font-family: sans-serif;
     line-height: 1.5;
   }
+  p:not([class]) > code:not([class]) {
+    display: block;
+  }
   nav:not([class]) > a {
     padding: .5em;
     border: 1px solid;
