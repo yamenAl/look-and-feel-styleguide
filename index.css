@@ -1,3 +1,5 @@
+/* Generieke stijlen, waarschijnlijk hoeven jullie deze niet aan te passen */
+
 @layer styleguide {
   body {
     max-width: 40em;
