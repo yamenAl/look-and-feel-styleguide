@@ -1,6 +1,9 @@
 /* Generieke stijlen, waarschijnlijk hoeven jullie deze niet aan te passen */
 
 @layer styleguide {
+  html, body {
+    scroll-behavior: smooth;
+  }
   body {
     max-width: 40em;
     margin: auto;
