@@ -25,7 +25,7 @@
 * {
     background-color: light-dark(var(--light), var(--dark));
     color: light-dark(var(--dark), var(--light));
-
+}
 /* Typografie */
 
 
