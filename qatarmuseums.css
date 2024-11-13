@@ -3,9 +3,28 @@
 
 
 /* Kleuren */
-.color-example {
-    background-color: #bada55;
+:root {
+    color-scheme: light dark;
+  
+    --light: white;
+    --light-code: tomato;
+    --light-button: #f9ff1e;
+  
+    --dark: black;
+    --dark-code: gold;
+    --dark-button: #ED3CBA;
+
+    --accent-grey: #464646;
+    --accent-light-blue: #79aafa;
+    --accent-pink: #ED3CBA;
+    --accent-light-orange: #ffc200;
+    --accent-yellow: #f9ff1e;
+
 }
+
+* {
+    background-color: light-dark(var(--light), var(--dark));
+    color: light-dark(var(--dark), var(--light));
 
 /* Typografie */
 
