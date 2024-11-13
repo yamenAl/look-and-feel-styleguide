@@ -25,12 +25,9 @@
 * {
     background-color: light-dark(var(--light), var(--dark));
     color: light-dark(var(--dark), var(--light));
-    
 }
 /* Typografie */
-code {
-    color: light-dark(var(--light-code), var(--dark-code));
-}
+
 
 /* Formulier elementen */
 
@@ -43,7 +40,8 @@ code {
 
 
 .primary-button{
-
+    background-color: light-dark(var(--light-button), var(--dark-button));
+    color: light-dark(var(--dark), var(--light));
 
 }
 
