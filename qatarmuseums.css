@@ -10,11 +10,15 @@
     --light-code: tomato;
     --light-button: #f9ff1e;
     --light-filter-button:#464646;
+    --light-hover-button:black;
+    --light-hover-button-text:black;
   
     --dark: black;
     --dark-code: gold;
     --dark-button: #ED3CBA;
     --dark-filter-button:#878787;
+    --dark-hover-button:white;
+    --dark-hover-button-text:white;
 
     --primary-button:rgba(255, 255, 255, .4); 
     --accent-grey: #464646;
@@ -39,20 +43,34 @@ code {
 
 /* Buttons */
 .button{
+    --spacing:0.5rem;
     background-color: light-dark(var(--light-button), var(--dark-button));
     color: light-dark(var(--dark), var(--light));
-    
+    padding: var(--spacing);
+    margin: var(--spacing);
+
+    &:hover{
+        background-color: light-dark(var(--light-hover-button), var(--dark-hover-button));
+        color: light-dark (var(--light-hover-button-text), var(--dark-hover-button-text));
+    }  
 }
 
 .primary-button{
+    --spacing:0.5rem;
     background-color: light-dark (var(--primary-button));
     color: light-dark(var(--dark), var(--light));
+    padding: var(--spacing);
+    margin: var(--spacing);
 
 }
 
 .filter-button{
+    --spacing:0.5rem;
     background-color: light-dark(var(--light-filter-button), var(--dark-filter-button));
-    color: var(--light)
+    color: var(--light);
+    padding: var(--spacing);
+    margin: var(--spacing);
+   
 }
 
 
