@@ -11,12 +11,16 @@
     --light-button: #f9ff1e;
     --light-filter-button:#464646;
     --light-hover-button:black;
+    --light-hover-button-text:white;
+
   
     --dark: black;
     --dark-code: gold;
     --dark-button: #ED3CBA;
     --dark-filter-button:#878787;
     --dark-hover-button:white;
+    --dark-hover-button-text:black;
+
 
     --primary-button:rgba(255, 255, 255, .4); 
     --accent-grey: #464646;
