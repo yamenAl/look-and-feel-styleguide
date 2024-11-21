@@ -87,7 +87,7 @@ code {
 
     &:hover{
         background-color: light-dark(var(--light-hover-button), var(--dark-hover-button));
-        color: light-dark (var(--light-hover-button-text), var(--dark-hover-button-text));
+        color: light-dark(var(--light-hover-button-text), var(--dark-hover-button-text));
     }  
 }
 
